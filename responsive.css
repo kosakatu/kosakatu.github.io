@@ -1,0 +1,35 @@
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+header ul{
+  justify-content: center;
+}
+.contents{
+  flex-wrap:wrap;
+}
+.content{
+  width:40%;
+  margin:10px auto;
+}
+}
+/* スマホ向けレイアウト */
+@media all and (max-width: 670px) {
+  header{
+    height:40px;
+  }
+  header ul{
+    justify-content: center;
+  }
+  header li{
+   font-size:23px; 
+  }
+  .top-wrapper h1{
+    font-size: 70px;
+  }
+  .contents{
+    flex-wrap:wrap;
+  }
+  .content{
+    width:80%;
+    margin:10px auto;
+  }
+}
