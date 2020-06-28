@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+  list-style-type: none;
+}
+body {
+  margin: 0;
+  font-family:'Bangers', cursive;
+  /* font-family: "Hiragino Kaku Gothic ProN", sans-serif; */
+}
+
+a {
+  text-decoration: none;
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(3, 40, 48, 0.9);
+  position:fixed;
+  top:0px;
+  z-index:10;
+}
+header ul{
+  display: flex;
+  margin:0;
+}
+header li{
+  margin-right:20px;
+  font-size:30px;
+  color:#792d2d;
+  opacity: 0.7;
+}
+header li:hover{
+  border-bottom: 1px solid #eee;
+  opacity: 1;
+  cursor:pointer
+}
+
+
+
+
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 200px;
+  background-image: url(./background.jpg);
+  background-size: cover;
+  text-align: center;
+  width:100%;
+}
+
+.top-wrapper h1 {
+  font-size: 75px;
+  color:#3d3939;
+}
+
+
+.self{
+  background-color:  rgba(160, 234, 247, 0.9);
+}
+.self-title {
+  text-align:center;
+  font-size:60px;
+  color: #3d3939;
+  margin-top: 0;
+}
+
+.Self-introduction{
+  margin:0 auto;
+  text-align:center;
+  width:100%;
+  height:100%;
+  padding-bottom: 30px;
+}
+
+.icon img{
+  border-radius: 50%;
+  border-width:4px;
+  border-style:solid;
+  border-color:white;
+}
+
+.info {
+  margin-top:30px;
+}
+
+
+.info ul{
+  margin:0px;
+  padding:0px;
+}
+.info ul li{
+  margin-right:8px;
+  color:#6e6e6e;
+  font-size: 30px;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+
+.heading {
+  padding-top: 10px;
+}
+
+
+.heading h2 {
+  font-weight: normal;
+  font-size:60px;
+  color:#3d3939;
+} 
+
+
+
+
+.main-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+  background-color:  rgba(160, 234, 247, 0.9);
+  width:100%;
+}
+
+.contents{
+ display: flex;
+ background-color: burlywood;
+}
+
+.content{
+  background-color: #eee;
+  margin: 10px;
+  height:500px;
+  width:100%;
+}
+.content p{
+  margin:10px;
+}
+.link{
+  color:red;
+  border-bottom: 1px solid red;
+}
+
+
+.content-icon p {
+  width: 100%;
+  color: #3d3939;
+  font-size:32px;
+}
+
+.content-icon  img{
+    width:80%;
+    opacity: 0.7;
+}
+
+.skill-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: gray;
+  font-size: 28px;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: gray;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+.account-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 13px;
+  color: gray;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+.heading h3  {
+  font-weight: normal;
+}
+
+.account-wrapper {
+  border-bottom: 1px solid #eee;
+  width:100%;
+}
+
+
+footer p {
+  text-align:center;
+  color: #792d2d;
+  font-size: 19px;
+}
+
+footer {
+  padding-top: 10px;
+  padding-bottom: 3px;
+  background-color:rgba(3, 40, 48, 0.9);
+  width:100%;
+}
