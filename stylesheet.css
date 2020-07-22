@@ -1,14 +1,11 @@
 * {
   box-sizing: border-box;
   list-style-type: none;
+  scroll-behavior:smooth;
 }
-html{
- scroll-behavior: smooth;
-  }
 body {
   margin: 0;
   font-family:'Bangers', cursive;
-  /* font-family: "Hiragino Kaku Gothic ProN", sans-serif; */
 }
 
 a {
@@ -52,16 +49,19 @@ header li:hover{
 }
 
 .top-wrapper {
-  padding: 200px;
+  height:800px;
   background-image: url(./background2.jpg);
   background-size: cover;
   text-align: center;
   width:100%;
 }
 
+
+
 .top-wrapper h1 {
   font-size: 75px;
   color:#3d3939;
+  padding-top:300px;
 }
 
 
@@ -163,17 +163,14 @@ header li:hover{
 }
 
 .skill-contents {
-  width: 80%;
   display: inline-block;
   margin-top: 15px;
-  font-size: 13px;
   color: gray;
   font-size: 28px;
   font-family: "Hiragino Kaku Gothic ProN", sans-serif;
 }
 
 .text-contents {
-  width: 80%;
   display: inline-block;
   margin-top: 15px;
   font-size: 13px;
@@ -181,7 +178,6 @@ header li:hover{
   font-family: "Hiragino Kaku Gothic ProN", sans-serif;
 }
 .account-contents {
-  width: 80%;
   display: inline-block;
   margin-top: 15px;
   font-size: 13px;
@@ -211,3 +207,4 @@ footer {
   background-color:rgba(3, 40, 48, 0.9);
   width:100%;
 }
+
