@@ -1,5 +1,5 @@
 /* タブレット向けレイアウト */
-@media all and (max-width: 1000px) {
+ @media all and (max-width: 1000px) {
 header ul{
   justify-content: center;
 }
@@ -10,21 +10,24 @@ header ul{
   width:40%;
   margin:10px auto;
 }
-}
-/* スマホ向けレイアウト */
+} 
+
 @media all and (max-width: 670px) {
+  
+  
   header{
-    height:40px;
+    height:20px;
   }
   header ul{
     justify-content: center;
   }
   header li{
-   font-size:23px; 
+   font-size:12px; 
   }
-  .top-wrapper h1{
-    font-size: 70px;
+  .top-wrapper{
+    height:300px;
   }
+  
   .contents{
     flex-wrap:wrap;
   }
@@ -32,4 +35,30 @@ header ul{
     width:80%;
     margin:10px auto;
   }
+/* フォントサイズ */
+  .top-wrapper h1{
+    font-size: 30px;
+    text-align: center;
+    width:100%;
+    padding-top:130px;
+  }
+  .self-title {
+    font-size: 30px;
+  }
+  .info ul li{
+    font-size:20px;
+  }
+  .heading h2 {
+    font-size:30px;
+  }
+  .content-icon p {
+    font-size:25px;
+  }
+  .skill-contents {
+    font-size: 20px;
+  }
+  .text-contents {
+    font-size: 10px;
+  }
+
 }
